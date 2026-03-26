@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>問卷互動系統</title>
+<style>
+  .section { display: none; margin:20px;}
+  .section.active { display:block; }
+  button { padding:10px 20px; margin:5px; border:none; border-radius:5px; cursor:pointer; }
+  textarea { width:300px; height:80px; margin:5px 0;}
+</style>
+</head>
+<body>
+
+<!-- 所有14區段 -->
+<div id="section1" class="section active">
+  <h2>Q1-1</h2>
+</div>
+
+<div id="section1_2" class="section">
+  <h2>Q1-2</h2>
+</div>
+
+<div id="section1_3" class="section">
+  <h2>Q1-3</h2>
+</div>
+
+<div id="section2" class="section">
+  <h2>Q2-1</h2>
+</div>
+
+<div id="section3" class="section">
+  <h2>Q3-1</h2>
+</div>
+
+<div id="section4" class="section">
+  <h2>Q4-1</h2>
+</div>
+
+<div id="section5" class="section">
+  <h2>Q5-1</h2>
+</div>
+
+<div id="section6" class="section">
+  <h2>Q6-1</h2>
+</div>
+
+<div id="section7" class="section">
+  <h2>Q9-1</h2>
+</div>
+
+<div id="section8" class="section">
+  <h2>Q10-1</h2>
+</div>
+
+<div id="section9" class="section">
+  <h2>Q11-1</h2>
+</div>
+
+<div id="section10" class="section">
+  <h2>Q12-1</h2>
+</div>
+
+<div id="section11" class="section">
+  <h2>Q13-1</h2>
+  <div id="Q14-1-div">
+    <h3>Q14-1</h3>
+    <textarea id="Q14-1"></textarea>
+  </div>
+  <div id="Q15-1-div">
+    <h3>Q15-1</h3>
+    <textarea id="Q15-1"></textarea>
+  </div>
+  <div id="Q16-1-div">
+    <h3>Q16-1</h3>
+    <textarea id="Q16-1"></textarea>
+  </div>
+</div>
+
+<div id="section12" class="section">
+  <h2>Q17-1 ~ Q19-1</h2>
+  <textarea id="Q17-1"></textarea>
+  <textarea id="Q18-1"></textarea>
+  <textarea id="Q19-1"></textarea>
+</div>
+
+<div id="section13" class="section">
+  <h2>推薦結果</h2>
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
